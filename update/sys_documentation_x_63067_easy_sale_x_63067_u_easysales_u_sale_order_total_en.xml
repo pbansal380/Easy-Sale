@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_sale_order_total" label="Order Total" language="en" table="x_63067_easy_sale_x_63067_u_easysales">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sale_order_total</element>
+            <help/>
+            <hint/>
+            <label>Order Total</label>
+            <language>en</language>
+            <name>x_63067_easy_sale_x_63067_u_easysales</name>
+            <plural>Order Totals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-08 03:39:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>227b74bddb3432002aeb7d9ebf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Order Total</sys_name>
+            <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+            <sys_update_name>sys_documentation_x_63067_easy_sale_x_63067_u_easysales_u_sale_order_total_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-08 03:39:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EasySales" max_length="40" name="x_63067_easy_sale_x_63067_u_easysales" type="collection">
+        <element label="Customer" max_length="32" name="customeru_esale_customer" reference="x_63067_easy_sale_es_customer" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Com Split" max_length="100" name="u_com_split" type="string"/>
+        <element label="Com Type" max_length="10" name="u_com_type" reference="x_63067_easy_sale_com_type" type="reference"/>
+        <element label="POD" max_length="40" name="u_pod" type="boolean"/>
+        <element label="Line Total" max_length="15" name="u_sales_calcontrol" type="string"/>
+        <element label="Sales Rep" max_length="50" name="u_sales_rep" reference="sys_user" type="reference"/>
+        <element label="Order Total" max_length="15" name="u_sale_order_total" read_only="true" type="string"/>
+        <element dynamic_creation_script="u_sale_stradd + u_sale_state + u_sale_country" label="Shipping Add" max_length="400" name="u_ship_add" type="string"/>
+        <element label="Ship Preference" max_length="50" name="u_ship_pref" type="string"/>
+        <index name="index">
+            <element name="customeru_esale_customer"/>
+        </index>
+    </element>
+</database>

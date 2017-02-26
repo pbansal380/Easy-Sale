@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sales Item" max_length="40" name="x_63067_easy_sale_m2m_easy_sales_i_easysales" type="collection">
+        <element label="EasySales" max_length="32" name="easysales" reference="x_63067_easy_sale_x_63067_u_easysales" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var tot = 0;&#13;&#10;&#9;&#13;&#10;&#9;alert(current.getValue('u_sale_price'));&#13;&#10;&#9;&#13;&#10;&#9;if (current.getValue('u_sale_price') &amp;&amp; current.getValue('u_sale_qty') !== null ) {&#13;&#10;&#9;&#9;&#13;&#10;&#9;gs.addInfoMessage('sp =' + current.getValue('u_sale_price') + 'sq=' + current.getValue('u_sale_qty') );&#13;&#10;&#9;&#13;&#10;&#9;var sp = parseFloat(current.getValue('u_sale_price'));&#13;&#10;&#9;var sq = parseFloat(current.getValue('u_sale_qty'));&#13;&#10;&#9;&#13;&#10;&#9; tot = sp*sq;&#13;&#10;&#9;&#13;&#10;&#9;//current.setValue('u_line_total',parseFloat(tot));&#13;&#10;&#9;&#13;&#10;&#9;//gs.addInfoMessage('tot1 =' + tot);&#13;&#10;// &#9;var num = current.easysales;&#13;&#10;// &#9;gs.info('num=' + num);&#13;&#10;&#9;&#13;&#10;// &#9;var aQuery = new GlideRecord('x_63067_easy_sale_x_63067_u_easysales');&#13;&#10;// &#9;aQuery.addQuery('sys_id',num);&#13;&#10;// &#9;aQuery.query();&#13;&#10;// //&#9;gs.addInfoMessage('qt' + aQuery.isNewRecord());&#13;&#10;&#9;&#13;&#10;// &#9;while (aQuery.next()) {&#13;&#10;// &#9;&#9;var ot = aQuery.getValue('u_order_total');&#13;&#10;// &#9;&#9;var nOt = 0.00;&#13;&#10;// &#9;&#9;gs.info('ot=' + ot);&#13;&#10;// &#9;&#9;if (ot != null) {&#13;&#10;// &#9;&#9;nOt = parseFloat(ot) + parseFloat(tot);&#13;&#10;// &#9;&#9;//&#9;gs.info('ot not nil' +'ot ' + ot + 'tot' +tot);&#13;&#10;&#9;&#9;&#9;&#13;&#10;// &#9;&#9;} else {&#13;&#10;// &#9;&#9;&#9;nOt = parseFloat(tot);&#13;&#10;// &#9;&#9;&#9;gs.info('ot nil');&#13;&#10;// &#9;&#9;}&#13;&#10;// &#9;&#9;aQuery.setValue('u_order_total',nOt);&#13;&#10;// &#9;&#9;gs.info('otot' + ot +', newtot' + nOt);&#13;&#10;// &#9;&#9;aQuery.update();&#13;&#10;&#9;&#9;&#13;&#10;// &#9;} &#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;} &#13;&#10;&#9;&#13;&#10;&#9;return tot;  // return the calculated value&#9;&#13;&#10;})(current);" label="lineTotal" max_length="10" name="u_line_total" type="string" virtual="true"/>
+        <element label="Item" max_length="100" name="u_sale_item" type="string"/>
+        <element label="Price" max_length="10" name="u_sale_price" type="string"/>
+        <element label="Quantity" max_length="10" name="u_sale_qty" type="string"/>
+        <index name="index">
+            <element name="easysales"/>
+        </index>
+    </element>
+</database>

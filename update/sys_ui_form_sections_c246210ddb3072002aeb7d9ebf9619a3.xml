@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="c246210ddb3072002aeb7d9ebf9619a3" sys_domain="global" table="x_63067_easy_sale_x_63067_u_easysales" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-05 22:50:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8646210ddb3072002aeb7d9ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63067_easy_sale_x_63067_u_easysales" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">c246210ddb3072002aeb7d9ebf9619a3</sys_ui_form>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-05 22:50:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-05 23:13:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a9b21cddb3072002aeb7d9ebf961949</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63067_easy_sale_x_63067_u_easysales" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">c246210ddb3072002aeb7d9ebf9619a3</sys_ui_form>
+            <sys_ui_section caption="Item details" display_value="Item details" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">429b21cddb3072002aeb7d9ebf961947</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-06 03:09:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-05 22:50:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a46210ddb3072002aeb7d9ebf9619a9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63067_easy_sale_x_63067_u_easysales" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">c246210ddb3072002aeb7d9ebf9619a3</sys_ui_form>
+            <sys_ui_section caption="Shipping Preferences" display_value="Shipping Preferences" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">0a46210ddb3072002aeb7d9ebf9619a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-06 03:09:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_63067_easy_sale_x_63067_u_easysales</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-05 22:50:35</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c246210ddb3072002aeb7d9ebf9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_63067_easy_sale_x_63067_u_easysales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c246210ddb3072002aeb7d9ebf9619a3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-05 22:50:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_com_type</field>
+        <global>true</global>
+        <messages/>
+        <name>ES_com_split</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+ 
+	//alert(newValue);
+	var ga = new GlideAjax('ES_comSplit');
+	ga.addParam('sysparm_name','comsplit');
+	ga.addParam('sysparm_ ssid',newValue);
+	//ga.addParam('sysparm_user_name',"Bob");
+	ga.getXML(cmsplit);
+
+function cmsplit(response) {
+   var answer = response.responseXML.documentElement.getAttribute("answer");
+	 // alert(answer);
+	
+	g_form.setValue('u_com_split',answer);
+	//g_form.setValue('u_sales_calcontrol',answer);
+	
+}
+ 
+// callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-11 13:05:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ec91afadbf832002aeb7d9ebf9619e6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>ES_com_split</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+        <sys_update_name>sys_script_client_5ec91afadbf832002aeb7d9ebf9619e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-14 13:27:34</sys_updated_on>
+        <table>x_63067_easy_sale_x_63067_u_easysales</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

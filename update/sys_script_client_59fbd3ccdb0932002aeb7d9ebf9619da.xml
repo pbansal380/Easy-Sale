@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_sale_price</field>
+        <global>true</global>
+        <messages/>
+        <name>ES_lineChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	GlideList2.get("u_sale_price").refresh();
+	
+// 	 var listLabel = 'my-list';  
+//   var list = $$('div.tabs2_list[tab_caption="' + listLabel + '"] .list_div')[0];  // locate the list  
+//   if (list) GlideList2.get(list.id).setFilterAndRefresh('u_sale_price' + newValue);
+
+	//alert(newValue);
+	//alert(g_form.getValue('number'));
+
+//	g_form.setValue('u_line_total','',newValue);
+	
+// 	var adTable = new GlideRecord('x_63067_easy_sale_m2m_easy_sales_i_easysales');
+// 	adTable.addQuery('easysales', g_form.getValue('number') );
+// 	//adTable.addNullQuery('interface_ref');
+// 	//adTable.addQuery('dr_cr', 'DR');
+//     adTable.query();
+	
+//   while (adTable.next()) {   
+	  
+// 	  alert('table has record');
+	  
+//   }
+	
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-15 15:08:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59fbd3ccdb0932002aeb7d9ebf9619da</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>ES_lineChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+        <sys_update_name>sys_script_client_59fbd3ccdb0932002aeb7d9ebf9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-16 14:55:51</sys_updated_on>
+        <table>x_63067_easy_sale_m2m_easy_sales_i_easysales</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

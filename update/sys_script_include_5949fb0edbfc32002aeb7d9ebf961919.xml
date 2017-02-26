@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_63067_easy_sale.ES_shipAddress</api_name>
+        <client_callable>true</client_callable>
+        <description>get ship address</description>
+        <name>ES_shipAddress</name>
+        <script><![CDATA[var ES_shipAddress  = Class.create();  
+ES_shipAddress .prototype = Object.extendsObject(global.AbstractAjaxProcessor, {  
+  
+helloWorld: function() {  
+ // var name = this.getParameter('sysparm_user_name').toString();  
+ // return "Hello " + name + "!";  
+	
+	 var si = this.getParameter('sysparm_ si').toString();
+//	var name = this.getParameter('sysparm_user_name').toString();  
+ //return "Hello " + name + " " + si; 
+	//	gs.log('es_si =' + si);
+	//return si;
+		var gr = new GlideRecord('x_63067_easy_sale_es_customer');
+		gr.addQuery('sys_id',si);
+		gr.query();
+        while(gr.next()){
+		var saa = gr.getValue('u_complete_address').toString();
+		var csp = gr.getValue('u_sale_cust_pref').toString();
+		var sacs = saa + ":" + csp;
+			
+		return sacs;
+		}
+		return 'no address found';
+    }, 
+  
+});  
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 12:13:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5949fb0edbfc32002aeb7d9ebf961919</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>ES_shipAddress</sys_name>
+        <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+        <sys_update_name>sys_script_include_5949fb0edbfc32002aeb7d9ebf961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-11 10:37:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ES customer" max_length="40" name="x_63067_easy_sale_es_customer" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Complete Address" max_length="400" name="u_complete_address" read_only="true" type="string"/>
+        <element label="City" max_length="40" name="u_sale_city" type="string"/>
+        <element label="Country" max_length="40" name="u_sale_country" type="string"/>
+        <element display="true" label="Customer" max_length="100" name="u_sale_customer" type="string"/>
+        <element label="Shipping pref" max_length="40" name="u_sale_cust_pref" type="string"/>
+        <element label="State" max_length="40" name="u_sale_state" type="string"/>
+        <element label="Street Address" max_length="200" name="u_sale_stradd" type="string"/>
+        <element label="zip/pin" max_length="10" name="u_sale_zip_pin" type="string"/>
+    </element>
+</database>

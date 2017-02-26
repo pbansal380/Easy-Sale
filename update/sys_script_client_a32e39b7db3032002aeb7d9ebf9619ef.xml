@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_sale_qty</field>
+        <global>true</global>
+        <messages/>
+        <name>ES_qty_change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	
+	if(newValue != oldValue) {
+		
+		alert('nv ' + newValue);
+		g_form.setValue('u_sales_calcontrol',newValue);
+		g_form.setValue('u_line_total','',newValue);
+		g_form.getControl('u_line_total');
+		//g_form.setMandatory('u_line_total', true);
+		GlideList2.get('u_line_total').refresh();
+
+		// alert(g_list.getListName());
+		
+		
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-14 13:39:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a32e39b7db3032002aeb7d9ebf9619ef</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>ES_qty_change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+        <sys_update_name>sys_script_client_a32e39b7db3032002aeb7d9ebf9619ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-16 14:58:07</sys_updated_on>
+        <table>x_63067_easy_sale_m2m_easy_sales_i_easysales</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

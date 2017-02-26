@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="com_type" max_length="40" name="x_63067_easy_sale_com_type" type="collection">
+        <element label="Commission Split" max_length="40" name="u_com_split" type="string"/>
+        <element display="true" label="Commission Type" max_length="40" name="u_com_type" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Header" section_id="cee5e9c9db3072002aeb7d9ebf961937" sys_domain="global" table="x_63067_easy_sale_x_63067_u_easysales" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>73a23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customeru_esale_customer</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>f7a23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sales_rep</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>7ba23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pod</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>fba23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>7fa23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_com_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>ffa23f4adbfc32002aeb7d9ebf9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_com_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>73a23f4adbfc32002aeb7d9ebf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sale_order_total</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>f3a23f4adbfc32002aeb7d9ebf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sales_calcontrol</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 11:37:56</sys_created_on>
+            <sys_id>77a23f4adbfc32002aeb7d9ebf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header" display_value="Header" name="x_63067_easy_sale_x_63067_u_easysales" sys_domain="global" view="Default view">cee5e9c9db3072002aeb7d9ebf961937</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 11:37:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Header</caption>
+            <header>false</header>
+            <name>x_63067_easy_sale_x_63067_u_easysales</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-05 22:48:57</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cee5e9c9db3072002aeb7d9ebf961937</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Header</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Easy Salesn" source="x_63067_easy_sale">7723a189dbfc32002aeb7d9ebf961922</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Easy Salesn">7723a189dbfc32002aeb7d9ebf961922</sys_scope>
+            <sys_update_name>sys_ui_section_cee5e9c9db3072002aeb7d9ebf961937</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-05 22:50:35</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="product catalouge" max_length="40" name="x_63067_easy_sale_product_catalouge" type="collection">
+        <element label="Availability" max_length="40" name="u_prod_avail" type="boolean"/>
+        <element label="Cost" max_length="15" name="u_prod_cost" type="string"/>
+        <element label="Product Description" max_length="100" name="u_prod_desc" type="string"/>
+        <element label="Location" max_length="100" name="u_prod_loc" type="string"/>
+        <element label="Price" max_length="15" name="u_prod_price" type="string"/>
+    </element>
+</database>
